@@ -102,6 +102,17 @@ const renderDetail = async() =>{
         console.log("error-single",error.message);
     }
 }
+// gameData.data.categories.forEach(category => {
+//     const tag = document.createElement("div");
+//     tag.classList.add("tag");
+//     const link = document.createElement("a");
+//     link.href = category;
+//     link.textContent = category;
+//     tag.appendChild(link);
+//     // Thêm tag vào vị trí mong muốn trong DOM
+//     // Ví dụ: document.querySelector(".tag-container").appendChild(tag);
+//   });
+  
 renderDetail();
 const getGenresList = async() =>{
   const url_genres = `https://steam-api-dot-cs-platform-306304.et.r.appspot.com/genres?page=1&limit=7`
