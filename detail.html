@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div id="header-stream-detail">
+            <div class="menu-stream">
+                <a href="/">
+                    <img src="./header_logo.png"
+              height="44"
+              alt="STEAM"/>
+                </a>
+            </div>
+            <h1 id="displayTitle">...Loading</h1>
+            <div class="menu-stream-detail">
+                <a href="#header-stream" class="menu">STORE</a>
+                <a href="#header-stream" class="menu">COMMUNITY</a>
+                <a href="#header-stream" class="menu">ABOUT</a>
+                <a href="#header-stream" class="menu">SUPPORT</a>
+            </div>
+        </div>
+    </header>
+    <main id="detail-page">
+        <div class="search_area">
+            <div id="store_search">
+              <form name="searchform">
+                <div id="searchbox-detail">
+                  <input
+                    id="searchform"  name="searchForm" type="text" class="default" placeholder="search" size="22" maxlength="64"/>
+                  <div id="search-img-detail">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/v6/search_icon_btn.png">  
+                  </div>
+                </div>
+              </form>
+              <div class="category"> </div>
+            </div>
+          </div>
+          <div id="display" class="showing_game" ></div>
+    </main>
+    <footer></footer>
+    <script src="./detail.js"></script>
+    <!-- <script src="./script.js"></script> -->
+</body>
+</html>
