@@ -398,10 +398,10 @@ button:hover {
   padding: 20px;
   
 }
-.pageNumber {
-
-  text-align: center;
+.page-number{
+  position: absolute;
+  text-align: end;
   color: #fff;
   font-size: 1.3rem;
   font-weight: bold;
-}
+  }
